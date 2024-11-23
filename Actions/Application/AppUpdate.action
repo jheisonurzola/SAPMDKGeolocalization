@@ -1,0 +1,8 @@
+{
+    "_Type": "Action.Type.ApplicationUpdate",
+    "ActionResult": {
+        "_Name": "AppUpdate"
+    },
+    "OnFailure": "/Geolocalization/Rules/Application/AppUpdateFailure.js",
+    "OnSuccess": "/Geolocalization/Rules/Application/AppUpdateSuccess.js"
+}
